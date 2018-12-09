@@ -1,0 +1,19 @@
+@import "../../sass/styles";
+
+.pokedex-container {
+    padding-top: 50px;
+    text-align: center;
+
+    .title {
+        color: $white;
+    }
+
+    .pokedex {
+        border: 20px $darkred solid;
+        background: $red;
+        width: $pokedex-width;
+        margin: 50px auto;
+        border-radius: 45px;
+        height: $pokedex-height;
+    }
+}
